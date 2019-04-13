@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4"><i class="fas fa-newspaper icon"></i> New York Times Search</h1>
+                <p class="lead">World News at your fingertips 24 / 7</p>
+            </div>
+        </div>
+
+        <form class="">
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Search Terms</label>
+                  <input type="text" class="form-control" id="search" placeholder="">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1">Numbers of records</label>
+                  <select class="form-control" id="nmbrecords">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label >Start Year (Optional)</label>
+                  <input type="text" class="form-control" id="startyear" placeholder="">
+                </div>
+                <div class="form-group">
+                  <label>End Year (Optional) </label>
+                  <input type="text" class="form-control" id="endyear" placeholder="">
+                </div>
+
+                <button id ="btn-search" type="button" class="btn btn-outline-dark">search</button>
+                <button id ="btn-clear" type="button" class="btn btn-outline-dark">Clear Results</button>
+                
+        </form>
+        <div class="card">
+                <div id="top-article" class="card-body top-article">
+                  Top Article
+                </div>
+                
+                <div class="id">
+                    Dump here articles 
+
+                </div>
+        </div>
+
+              
+             
+    </div>
+
+    <button id="btn-search" type="button" class="btn btn-outline-dark">search</button>
+    <button id="btn-clear" type="button" class="btn btn-outline-dark">Clear Results</button>
+
+  </form>
+
+  </div>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="assets/nytsearch.js"></script>
+
+</body>
+
+</html>
