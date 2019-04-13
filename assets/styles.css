@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background: #cabdbd;
+    font-family: 'Didact Gothic', sans-serif;
+}
+.sub-headers{
+    background: forestgreen;
+}
+form{
+    max-width: 1100px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.card{
+    max-width: 1100px;
+    width: 90%;
+    margin: auto;
+    background: white;
+}
+
+#top-article{
+    background: #f5c1c1;
+}
